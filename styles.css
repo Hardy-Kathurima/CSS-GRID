@@ -42,20 +42,7 @@ h5 {
   padding: 20px;
 }
 
-nav ul {
-  font-size: 20px;
-  list-style: none;
-}
 
-nav ul li {
-  font-size: 20px;
-  color: white;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: white;
-}
 
 .contacts {
   padding: 20px;
@@ -176,33 +163,6 @@ main {
   align-items: center;
 }
 
-.history {
-  background-color: green;
-  padding: 20px;
-}
-
-
-
-.vision {
-  background-color: aqua;
-  padding: 20px;
-
-
-}
-
-.mission {
-  background-color: blue;
-  padding: 20px;
-
-
-}
-
-.location {
-  background-color: brown;
-  padding: 20px;
-
-}
-
 .about-grid {
   display: grid;
   padding: 20px;
@@ -236,6 +196,7 @@ main {
 .history {
   grid-area: history;
   padding: 20px;
+  background-color: green;
 }
 
 .vision {
@@ -247,15 +208,17 @@ main {
 .mission {
   grid-area: mission;
   padding: 20px;
+  background-color: blue;
 }
 
 .location {
   grid-area: location;
   padding: 20px;
+  background-color: brown;
 }
 
 .benefit {
-  background-color: bisque;
+  background-color: indianred;
   padding: 20px;
   grid-area: benefit;
 }
